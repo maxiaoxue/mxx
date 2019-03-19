@@ -1,0 +1,56 @@
+.lsWrapper{
+    position: absolute;
+    z-index: 9;
+    top: 128px;
+    bottom: 56px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+.noBottomBar{
+    bottom: 0;
+}
+.list{
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing:0;
+    font-size:14px;
+    margin-top: 40px;
+}
+.list > tr{
+    height:70px;
+    border-bottom: 1px solid #f8f8f8;
+    line-height: 26px;
+}
+.list .checkBtn{
+    background-image: url('../assets/check.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 30px 30px;
+    width: 50px;
+}
+.list .swiped{
+     background-image: url('../assets/checked.png');
+}
+.list .right{
+    width: 38px;
+}
+.right .iconfont{
+    margin-left: 5px;
+    vertical-align: middle;
+    color: #d2d6db;
+}
+.padLeft{
+    padding-left: 20px;
+}
+.brief .title{
+    color:#1d1d26;
+}
+.brief .info{
+    color:#979a9f;
+}
+.marLeft{
+    margin-right: 10px;
+    float: right;
+}

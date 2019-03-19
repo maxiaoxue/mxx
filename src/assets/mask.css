@@ -1,0 +1,41 @@
+.screenInfo {
+    position: absolute!important;
+    top: 3px!important;
+    bottom: 10px!important;
+    left: 0!important;
+    right: 0!important;
+    width: 70% !important;
+    margin-left: 30% !important;
+    height: 100%!important;
+}
+
+.bottomBtn-mask {
+    width: 100%;
+    bottom: 8%;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    z-index: 5;
+}
+
+.bottomBtn-mask li {
+    width: 40%;
+    float: left;
+    height: 42px;
+    line-height: 42px !important;
+    font-size: 16px !important;
+}
+
+.bottomBtn-mask li:nth-child(1) {
+    background: #eee;
+    margin-left: 10%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.bottomBtn-mask li:nth-child(2) {
+    background: #61abf9;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #fff;
+}
